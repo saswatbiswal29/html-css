@@ -431,11 +431,85 @@ p{
 }
 
 .google-searchbar{
-  width: 350px;
-  padding-left: 10px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  width: 420px;
+  font-size: 16px;
+  color: rgb(77, 77, 77);
+  padding-left: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   border-radius: 30px;
   border: none;
-  box-shadow: 5px, 5px, 10px, rgba(8, 8, 8, 0.3);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.linkedin-email{
+  font-family: Arial;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.linkedin-input{
+  height: 26px;
+  width: 340px;
+  border-color: rgb(59, 58, 58);
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 2px;
+}
+.linkedin-tnc{
+  font-family: Arial;
+  font-size: 14px;
+}
+.agree-join{
+  background-color: rgb(10, 102, 194);
+  color: white;
+  font-family: Arial;
+  font-size: 16px;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 24px;
+  border: solid;
+  border-width: 1px;
+  cursor: pointer;
+  vertical-align: top;
+  transition: border-width 0.15s, background-color 0.15s;
+}
+.agree-join:hover{
+  background-color: rgb(10, 87, 165);
+}
+
+.tweet-pfp{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.tweet-msg{
+  vertical-align: middle;
+}
+.tweet-button{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 18px;
+  font-weight: bold;
+  vertical-align: top;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  vertical-align: middle;
+  transition: box-shadow, opacity 0.15s
+}
+.tweet-button:hover{
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.tweet-button:active{
+  opacity: 0.8;
 }
