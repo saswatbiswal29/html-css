@@ -682,7 +682,7 @@ p{
   border-radius: 4px;
 }
 .tweet-button-2{
-  background-color: rgb(29, 155, 240);
+  background-color: #1d9bf0;
   color: white;
   border: none;
   padding-left: 16px;
@@ -767,4 +767,237 @@ p{
   margin-left: 6px;
   background-color: rgb(230, 230, 230);
   border: none;
+}
+
+.info-panel{
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-panel-home{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  p{
+    margin-top: 8px;
+    margin-bottom: 6px;
+    margin-left: 8px;
+    margin-right: 6px;
+    font-size: 18px;
+  }
+}
+
+.msg-badge{
+  color: white;
+  background-color: #2683cf;
+  padding: 5px;
+  padding-inline: 12px;
+  border-radius: 16px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.f-main{
+  display: flex;
+  flex-direction: column;
+}
+
+.main-profile{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.main-profile-pic{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.middle{
+  width: 250px;
+  p{
+    margin: 0;
+    margin-bottom: 2px;
+  }
+  .name{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .desc{
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+  }
+  .status{
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+  }
+}
+.last{
+  display: flex;
+  align-items: center;
+  .sign{
+    width: 80px;
+  }
+}
+
+.download-header{
+  background-color: rgb(137, 83, 199);
+  display: flex;
+  p{
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+  }
+  .first{
+    flex:2;
+    
+  }
+  .middle{
+    flex: 8;
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .download{
+    background-color: rgb(137, 83, 199);
+    border-color: white;
+    color: white;
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 2px;
+    margin-right: 10px;
+  }
+  .google-searchbar{
+    width: 100%
+  }
+  .last{
+    flex: 3;
+    justify-content: end;
+  }
+}
+
+.gmail-ios{
+  border-radius: 6px;
+  margin-left: 10px;
+  padding-left: 15px;
+  padding-top: 8px;
+  width: 490px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+  font-family: Arial, Helvetica, sans-serif;
+
+  .heading{
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    color: rgb(77,77,77);
+  }
+  .email{
+    display: flex;
+    /* flex-direction: column; */
+    padding-bottom: 20px;
+  }
+  .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+  }
+  .sender{
+    /* width: 200px; */
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .time{
+    /* flex: 1; */
+    margin-right: 18px;
+    color: rgb(77, 77, 77);
+
+  }
+  .subject{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+
+  .profile-pic{
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    object-position: center;
+  }
+  .content{
+    width: 100%;
+  }
+  .mail{
+    font-size: 16px;
+    color: rgb(77,77,77);
+  }
+}
+
+.tweet-post{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  width: 410px;
+  .profile-picture{
+    width: 50px;
+  }
+  .content{
+    flex:1;
+  }
+  .top{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .tweet{
+    display: block;
+  }
+  .link{
+    width: 100%;
+    display: flex;
+    border: 1px rgb(182, 182, 182) solid;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  .link-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px 0 0 10px;
+    background-color: rgb(182, 182, 182);
+  }
+  .link-text{
+    flex: 1;
+    padding-top: 20px;
+    padding-left: 12px;
+  }
+  .link-site{
+    margin-bottom: 5px;
+    color: rgb(94, 94, 94);
+  }
+  .profile{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .userid{
+    color: gray;
+    font-weight: 300;
+  }
+  .profile-picture{
+    margin-right: 14px;
+  }
 }
