@@ -1001,3 +1001,42 @@ p{
     margin-right: 14px;
   }
 }
+
+.shopping-div{
+  width: 300px;
+  height: 315px;
+  position: relative;
+
+  .image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+  .discount{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 6px 12px;
+  }
+  .shopping-bottom{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 25%;
+    background-color: rgba(240, 255, 255, 0.37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button{
+    height: 30px;
+    padding: 4px 8px;
+    font-size: 14px;
+    border: 1px gray solid;
+  }
+}
